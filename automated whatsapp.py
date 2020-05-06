@@ -15,7 +15,7 @@ import time
 driver=webdriver.Chrome("E:/ACADEMICS/SPYDER + JUPYTER/chromedriver")
 driver.get("https://web.whatsapp.com")
 wait=WebDriverWait(driver, 600)
-target =' "Maa JIO" '
+target =' "Name of the person whom you want to send" '
 string1 = "I am ready with my bot."
 
 x_arg='//span[contains(@title, '+ target + ')]'
@@ -27,7 +27,7 @@ for i in range(10):
 #search=driver.find_element_by_class_name('vW7d1 message-out')
 #search=driver.find_element_by_link_text('https://youtu.be/sVDHOi3Nsok')
 #search.click()
-target =' "Maa JIO" '
+target =' "Name of the person whom you want to send" '
 string2 = "Are you ?"
 
 x_arg='//span[contains(@title, '+ target + ')]'
@@ -38,7 +38,7 @@ input_box=driver.find_element_by_class_name('_1Plpp')
 for i in range(10):
     input_box.send_keys(string2+Keys.ENTER)
 
-target =' "Maa JIO" '    
+target =' "Name of the person whom you want to send" '    
 string3 = "If not then be ready !"
 
 x_arg='//span[contains(@title, '+ target + ')]'
