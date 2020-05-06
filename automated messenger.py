@@ -19,17 +19,17 @@ driver.get("https://messenger.com")
 #elem.click()
 driver.implicitly_wait(5)
 search=driver.find_element_by_id('email')
-search.send_keys('7596985078')
+search.send_keys('the username')
 driver.implicitly_wait(5)
 search=driver.find_element_by_id('pass')
-search.send_keys('chattingrdbot')
+search.send_keys('your password')
 
 #elem=browser.find_element_by_link_text('Log In')
 #elem.click()
 driver.implicitly_wait(5)
 search=driver.find_element_by_id('loginbutton')
 search.click()
-target =' "Tathagata Dey" '
+target =' "Name of the person whom you want to send" '
 string1 = "I am ready with my bot."
 
 #x_arg='//span[contains(@title, '+ target + ')]'
